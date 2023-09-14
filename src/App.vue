@@ -1,6 +1,6 @@
 <template>
   <Page>
-    <Header favorite="Избранное"/>
+    <Header favorite="Избранное!!!!!"/>
     <SearchBar/>
     <ContentBlock/>
   </Page>
