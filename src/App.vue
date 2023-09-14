@@ -1,6 +1,6 @@
 <template>
   <Page>
-    <Header favorite="Избранное!!"/>
+    <Header favorite="Избранное"/>
     <SearchBar/>
     <ContentBlock/>
   </Page>
@@ -28,7 +28,7 @@ export default {
 <style>
   @font-face{
     font-family:Roboto;
-    src:url('./assets/fonts/Roboto-Regular.ttf');
+    src:url('./assets/fonts/RobotoFlex-VariableFont.ttf');
   }
 
   body{
