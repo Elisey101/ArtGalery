@@ -2,9 +2,10 @@
   <div>
     <div class="searchBar">
       <div class="shading">
-        <form action="">
+      <form action="">
         <input class="searchInput" type="text" value="Поиск"/>
       </form>
+      <div class="searchIconBlock"></div>
       </div>
     </div>
     <div class="underline"></div>
@@ -42,14 +43,26 @@
   }
 
   .searchInput{
-    width:855px;
+    width:785px;
     height:70px;
-    border:1px solid gray;
+    border:none;
     background-color:white;
+    color:rgb(133, 133, 133);
     font-size:24px;
     font-weight:200px;
     box-sizing:border-box;
     padding:0 40px 0 40px;
+  }
+
+  .searchInput:focus{
+    outline:none;
+    color:black;
+  }
+
+  .searchIconBlock{
+    width:70px;
+    height:70px;
+    background-color:white;
   }
 
   .underline{
