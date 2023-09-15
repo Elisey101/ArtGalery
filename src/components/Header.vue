@@ -1,5 +1,5 @@
 <template>
-  <div class="header">
+  <div class="header" id="header">
     <div class="child">
       <div class="logo">
         <img alt="Site Logo" src="../assets/svg/Logo.svg">

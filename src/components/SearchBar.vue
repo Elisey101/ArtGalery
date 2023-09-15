@@ -2,10 +2,12 @@
   <div>
     <div class="searchBar">
       <div class="shading">
-      <form action="">
-        <input class="searchInput" type="text" value="Поиск"/>
-      </form>
-      <div class="searchIconBlock"></div>
+        <form action="">
+          <input class="searchInput" type="text" value="Поиск"/>
+        </form>
+        <div class="searchIconBlock">
+          <img src="../assets/svg/Loupe.svg" alt="">
+        </div>
       </div>
     </div>
     <div class="underline"></div>
@@ -60,9 +62,17 @@
   }
 
   .searchIconBlock{
-    width:70px;
     height:70px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:0 40px 0 40px;
     background-color:white;
+    
+  }
+
+  .searchIconBlock:hover{
+    background-color:rgb(238, 238, 238);
   }
 
   .underline{
