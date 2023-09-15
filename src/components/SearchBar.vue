@@ -3,7 +3,7 @@
     <div class="searchBar">
       <div class="shading">
         <form action="">
-          <input class="searchInput" type="text" value="Поиск"/>
+          <input class="searchInput" type="text" placeholder="Поиск"/>
         </form>
         <div class="searchIconBlock">
           <img src="../assets/svg/Loupe.svg" alt="">
@@ -68,7 +68,7 @@
     justify-content:center;
     padding:0 40px 0 40px;
     background-color:white;
-    
+
   }
 
   .searchIconBlock:hover{

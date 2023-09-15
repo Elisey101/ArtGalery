@@ -12,9 +12,9 @@
 </template>
 
 <script>
-import Header from './components/Header.vue';
-import SearchBar from './components/SearchBar.vue';
-import ContentBlock from './components/ContentBlock.vue';
+import Header from '@/components/Header.vue';
+import SearchBar from '@/components/SearchBar.vue';
+import ContentBlock from '@/components/ContentBlock.vue';
 // import HelloWorld from './components/HelloWorld.vue'
 
 export default {
@@ -31,7 +31,7 @@ export default {
 <style>
   @font-face{
     font-family:Roboto;
-    src:url('./assets/fonts/RobotoFlex-VariableFont.ttf');
+    src:url('@/assets/fonts/RobotoFlex-VariableFont.ttf');
   }
 
   html{
